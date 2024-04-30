@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "target": "es6",                     /* コンパイル後のJavaScriptのバージョン */
+      "module": "commonjs",                /* モジュールシステムの種類 (Reactプロジェクトでは一般的に"esnext"や"es6"を利用)*/
+      "strict": true,                      /* 厳密な型チェックを有効にする(TypeScriptの強みである型システムを最大限活用する) */
+      "esModuleInterop": true,             /* ESモジュールのインタープリタビリティ */
+      "jsx": "react",                      /* JSXのサポート JavaScript内でHTMLを簡単に記述するための言語・JavaScriptの拡張言語*/
+      "outDir": "./dist",                  /* コンパイル出力先ディレクトリ(ここではdistディレクトリに出力するようにしている) */
+      "baseUrl": "./src",                  /* ルートディレクトリ(最上位のディレクトリ)の設定 */
+      "paths": {
+        "@/*": ["*"]
+      },
+      "forceConsistentCasingInFileNames": true /* ファイル名の一貫性を強制する */
+    },
+    "include": [
+      "src/**/*"                          /* コンパイル対象のファイル/ディレクトリ (ここではsrcディレクトリ以下の全てのファイルがコンパイル対象)*/
+    ]
+  }
+  
